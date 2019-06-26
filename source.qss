@@ -1,0 +1,20 @@
+QPushButton:hover
+{
+    color:yellow;
+    background-color:green;
+}
+
+QPushButton[text="Cancel"]
+{
+    color:red;
+}
+
+QTableView::item:hover,QLineEdit:hover,QComboBox:hover,QTextEdit:hover
+{
+    background-color:rgb(127,255,212);
+}
+
+QMenuBar,QStatusBar
+{
+    background-color:rgb(100,149,237);
+}
